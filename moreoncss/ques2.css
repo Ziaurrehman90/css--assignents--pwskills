@@ -1,0 +1,27 @@
+.zia{
+    align-items: center;
+    background-color: aquamarine;
+    /* display: inline; */
+    display: inline-block;
+     border-radius: 20px; 
+     height: 150px;
+     width: 150px;
+     text-align: center;
+     line-height: 200px;
+}
+img{
+    /* align:center */
+    height: 250px;
+    width: 250px;
+    padding:10px 10px 20px 10px;
+    border-radius: 30px;
+}
+h3{
+    font-size: 14px;
+}
+p{
+    font-size: 14px;
+    padding: 5px;
+    text-rendering: geometricPrecision;
+
+}

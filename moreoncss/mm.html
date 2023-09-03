@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Centered Div with Image and Paragraph</title>
+    <style>
+        body {
+            display: flex;
+            justify-content:initial;
+            align-items:flex-start;
+            height: 100vh; /* Ensure the container takes up the full viewport height */
+            margin: 0; /* Remove default margin */
+        }
+
+        .centered-content {
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .centered-content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto; /* Center the image horizontally */
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-content">
+        <img src="./pw.jpg" alt="Image Description">
+        <p><strong>Course Name:</strong>PW Skills Sigma 2.0</p>
+    </div>
+</body>
+</html>

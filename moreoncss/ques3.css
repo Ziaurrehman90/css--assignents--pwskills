@@ -1,0 +1,28 @@
+.cl{
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+    
+   }
+   a{
+    color: aliceblue;
+    padding: 20px;
+   }
+   a:hover{
+    color: brown;
+   }
+   a[href="home"]{
+    border-style: double;
+   }
+   a[href="about"]{
+    border-style: dotted;
+   }
+   a[href="contact"]{
+    border-style: dashed;
+   }
+   a[href="blog"]{
+    border-style: inset;
+   }
+   a[href="login"]{
+    border-style: ridge;
+   }

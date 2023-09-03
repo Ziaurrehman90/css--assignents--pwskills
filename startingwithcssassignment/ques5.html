@@ -1,0 +1,50 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ques 5</title>
+    <style>
+        img:hov{
+            height: 200px;
+            width: 150px;
+            border: brown;
+            border-radius: 20%;
+        }
+        h1{
+            color: darkred;
+        }
+    </style>
+</head>
+<body>
+    <h2>Hover below to revel the surprise</h2>
+    <img src="./data.jpg" alt="">
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover to Reveal a Surprise</title>
+    <style>
+        #hidden-image {
+            display: none;
+            max-width: 100%;
+        }
+
+        
+
+        #reveal-text:hover + #hidden-image {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hover Below to Reveal the Surprise</h1>
+        <p id="reveal-text">Hover Here</p>
+        <img id="hidden-image" src="./data.jpg" alt="Hidden Surprise">
+    </div>
+</body>
+</html>
